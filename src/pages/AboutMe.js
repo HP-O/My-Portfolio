@@ -17,7 +17,13 @@ function AboutMe() {
       </div>
       <div>
         <h1>Hello, You're Welcome to Hauwa's Profile!</h1>
-        <p> I'm a FullStack Developer in Javascript</p>
+        <p>
+          I'm a FullStack Javascript Developer, currently looking for an
+          Internship or Junior developer role/position that will give me the
+          necessary skills to become a competitive developer. My strength is
+          currently react.js but I am willing to apply myself in an environment
+          that will provide the needed mentorship to progress in my career.
+        </p>
       </div>
     </div>
   );
