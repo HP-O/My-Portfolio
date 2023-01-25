@@ -1,0 +1,15 @@
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  border-radius: 0.5rem;
+  height: 2rem;
+  width: 8rem;
+}

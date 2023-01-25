@@ -1,22 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ExternalLink } from "react-external-link";
+import "./projects.css";
 
 function Projects() {
   return (
     <div>
-      <div>
-        <Link to="/">
-          <p>Home</p>
-        </Link>
-        <Link to="/aboutme">
-          <p>About Me</p>
-        </Link>
+      <div className=" button-container">
+        <button className="btn">
+          <Link to="/">
+            <p>Home</p>
+          </Link>
+        </button>
+        <button className="btn">
+          <Link to="/aboutme">
+            <p>About Me</p>
+          </Link>
+        </button>
 
-        <Link to="/resume">
-          <p>Resume</p>
-        </Link>
+        <button className="btn">
+          <Link to="/resume">
+            <p>Resume</p>
+          </Link>
+        </button>
       </div>
+
       <div>
         <h1>Projects</h1>
         <div>
