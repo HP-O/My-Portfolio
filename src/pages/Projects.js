@@ -4,7 +4,7 @@ import { ExternalLink } from "react-external-link";
 import "./projects.css";
 function Projects() {
   return (
-    <div>
+    <div className="container-home">
       <div className=" button-container">
         <button className="btn">
           <Link to="/">

@@ -4,7 +4,7 @@ import "./about-me.css";
 
 function AboutMe() {
   return (
-    <div>
+    <div className="container-home">
       <div className=" button-container">
         <button className="btn">
           <Link to="/">

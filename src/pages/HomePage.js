@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home-page.css";
+import LogoCarousel from "./LogoCarousel";
 
 function HomePage() {
   return (
-    <div className="container">
+    <div className="container-home">
       <div className=" button-container">
         <button className="btn">
           <Link to="/aboutme">
@@ -244,7 +245,11 @@ function HomePage() {
           </svg>
         </p>
         <p></p>
+        //{" "}
       </div> */}
+      <div>
+        <LogoCarousel />
+      </div>
     </div>
   );
 }
